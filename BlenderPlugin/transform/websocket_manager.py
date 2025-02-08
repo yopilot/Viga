@@ -1,6 +1,14 @@
-# websocket_manager.py
+import sys
+import os
+
+# Add websockets_lib to sys.path
+websockets_path = os.path.join(os.path.dirname(__file__), "websockets_lib")
+if websockets_path not in sys.path:
+    sys.path.append(websockets_path)
+
+# Now import websockets AFTER adding the path
 import asyncio
-import websockets
+import websockets  # This should now load from websockets_lib
 import json
 import threading
 import bpy

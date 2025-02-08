@@ -8,19 +8,29 @@ bl_info = {
 }
 
 import bpy
+import sys
+import os
+
+# Ensure websockets is loaded from the local websockets_lib folder
+websockets_path = os.path.join(os.path.dirname(__file__), "websockets_lib")
+if websockets_path not in sys.path:
+    sys.path.append(websockets_path)
+
+# Import modules after modifying sys.path
+import websockets
 from .panels import panel_classes
 from .operators import operator_classes
-from .websocket_manager import ws_manager
+from .websocket_manager import WebSocketManager  # Import class instead of instance
 
 # Define InventoryItem PropertyGroup
 class InventoryItem(bpy.types.PropertyGroup):
-    name: bpy.props.StringProperty
-    quantity: bpy.props.IntProperty
+    name: bpy.props.StringProperty(name="Item Name", default="")
+    quantity: bpy.props.IntProperty(name="Quantity", default=1)
 
 def register():
     from bpy.props import (EnumProperty, PointerProperty, StringProperty, 
-                          IntProperty, BoolProperty, CollectionProperty)
-    
+                           IntProperty, BoolProperty, CollectionProperty)
+
     # Register InventoryItem class first
     bpy.utils.register_class(InventoryItem)
     
@@ -71,7 +81,9 @@ def register():
     for cls in panel_classes + operator_classes:
         bpy.utils.register_class(cls)
     
-    # Start WebSocket manager
+    # ✅ Start WebSocket Manager **after** all properties are registered
+    global ws_manager
+    ws_manager = WebSocketManager()
     ws_manager.start()
 
 def unregister():
