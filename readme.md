@@ -37,7 +37,7 @@ Viga is a comprehensive project that integrates a FastAPI server with a PyQt app
 
 # ScreenShot
 
-## plugin
+## Plugin
 ![Screenshot 2025-02-09 025200](https://github.com/user-attachments/assets/f77c1077-cbec-4ae4-ad85-61f186c99f8d)
 ![Screenshot 2025-02-09 030615](https://github.com/user-attachments/assets/bab2257c-62c0-4ed3-91be-f21e29b59a19)
 
@@ -46,7 +46,7 @@ Viga is a comprehensive project that integrates a FastAPI server with a PyQt app
 
 ---
 
-## Executable PYQt Application for Inventory
+## Executable PyQt Application for Inventory
 
 ### Application
 ![Screenshot 2025-02-09 025355](https://github.com/user-attachments/assets/e6511e14-900a-4eef-8804-8f3c230d878e)
