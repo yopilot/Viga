@@ -1,23 +1,22 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from pathlib import Path
-
-# Correct path to models.py
-MODELS_PATH = Path(r"C:\Users\Yaxh\Desktop\Viga\fastapi_server\database\models.py")
-FASTAPI_SERVER_PATH = Path(r"C:\Users\Yaxh\Desktop\Viga\fastapi_server")
+import os
 
 # Import models directly
-import importlib.util
-spec = importlib.util.spec_from_file_location("models", str(MODELS_PATH))
-models = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(models)
+from . import models
+
 InventoryItem = models.InventoryItem
 Base = models.Base
 
 class DatabaseManager:
     def __init__(self):
-        # Using absolute path to your database file
-        db_path = FASTAPI_SERVER_PATH / "inventory.db"
+        # Get the user's home directory
+        home_dir = os.path.expanduser("~")
+        # Specify the path for the SQLite database in the VigaData directory
+        db_dir = os.path.join(home_dir, "VigaData")
+        # Ensure the directory exists
+        os.makedirs(db_dir, exist_ok=True)
+        db_path = os.path.join(db_dir, "inventory.db")
         db_url = f"sqlite:///{db_path}"
         
         # Create engine with absolute path

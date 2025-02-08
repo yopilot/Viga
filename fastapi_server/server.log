@@ -1,0 +1,96 @@
+2025-02-08 23:52:28,652 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-08 23:52:28,700 - INFO - Response status: 200
+2025-02-09 00:26:44,312 - INFO - Received request: GET http://127.0.0.1:5000/ws
+2025-02-09 00:26:44,318 - INFO - Response status: 404
+2025-02-09 00:26:59,434 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:26:59,459 - INFO - Response status: 200
+2025-02-09 00:27:00,172 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:00,175 - INFO - Response status: 200
+2025-02-09 00:27:00,528 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:00,531 - INFO - Response status: 200
+2025-02-09 00:27:00,550 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:00,552 - INFO - Response status: 200
+2025-02-09 00:27:00,577 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:00,580 - INFO - Response status: 200
+2025-02-09 00:27:00,589 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:00,592 - INFO - Response status: 200
+2025-02-09 00:27:00,630 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:00,637 - INFO - Response status: 200
+2025-02-09 00:27:00,979 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:00,983 - INFO - Response status: 200
+2025-02-09 00:27:01,023 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:01,026 - INFO - Response status: 200
+2025-02-09 00:27:02,264 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:02,267 - INFO - Response status: 200
+2025-02-09 00:27:02,616 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:02,620 - INFO - Response status: 200
+2025-02-09 00:27:03,676 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:03,680 - INFO - Response status: 200
+2025-02-09 00:27:03,689 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:03,693 - INFO - Response status: 200
+2025-02-09 00:27:03,721 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:03,725 - INFO - Response status: 200
+2025-02-09 00:27:03,745 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:03,753 - INFO - Response status: 200
+2025-02-09 00:27:03,773 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:03,776 - INFO - Response status: 200
+2025-02-09 00:27:03,794 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:03,797 - INFO - Response status: 200
+2025-02-09 00:27:03,826 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:03,830 - INFO - Response status: 200
+2025-02-09 00:27:03,869 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:03,872 - INFO - Response status: 200
+2025-02-09 00:27:03,902 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:03,906 - INFO - Response status: 200
+2025-02-09 00:27:05,674 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:05,677 - INFO - Response status: 200
+2025-02-09 00:27:10,005 - INFO - Received request: POST http://127.0.0.1:5000/add-item
+2025-02-09 00:27:10,038 - INFO - Response status: 200
+2025-02-09 00:27:11,786 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:11,789 - INFO - Response status: 200
+2025-02-09 00:27:11,797 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:11,801 - INFO - Response status: 200
+2025-02-09 00:27:11,816 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:11,820 - INFO - Response status: 200
+2025-02-09 00:27:11,836 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:11,840 - INFO - Response status: 200
+2025-02-09 00:27:11,868 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:11,871 - INFO - Response status: 200
+2025-02-09 00:27:11,909 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:11,912 - INFO - Response status: 200
+2025-02-09 00:27:11,934 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:11,937 - INFO - Response status: 200
+2025-02-09 00:27:11,966 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:11,969 - INFO - Response status: 200
+2025-02-09 00:27:12,000 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:12,004 - INFO - Response status: 200
+2025-02-09 00:27:12,316 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:12,319 - INFO - Response status: 200
+2025-02-09 00:27:12,838 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:12,839 - INFO - Response status: 200
+2025-02-09 00:27:12,854 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:12,858 - INFO - Response status: 200
+2025-02-09 00:27:12,867 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:12,871 - INFO - Response status: 200
+2025-02-09 00:27:12,882 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:12,886 - INFO - Response status: 200
+2025-02-09 00:27:12,925 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:12,929 - INFO - Response status: 200
+2025-02-09 00:27:12,961 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:12,963 - INFO - Response status: 200
+2025-02-09 00:27:12,991 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:12,996 - INFO - Response status: 200
+2025-02-09 00:27:13,063 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:27:13,066 - INFO - Response status: 200
+2025-02-09 00:30:37,441 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:30:37,444 - INFO - Response status: 200
+2025-02-09 00:30:37,457 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:30:37,463 - INFO - Response status: 200
+2025-02-09 00:30:37,599 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:30:37,605 - INFO - Response status: 200
+2025-02-09 00:30:38,475 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:30:38,475 - INFO - Response status: 200
+2025-02-09 00:31:10,758 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:31:10,763 - INFO - Response status: 200
+2025-02-09 00:31:11,167 - INFO - Received request: GET http://127.0.0.1:5000/inventory
+2025-02-09 00:31:11,170 - INFO - Response status: 200

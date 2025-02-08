@@ -25,9 +25,10 @@ a = Analysis(
         'sqlalchemy.dialects.sqlite', 
         'sqlalchemy.dialects.mysql', 
         'sqlalchemy.dialects.postgresql', 
-        'sqlalchemy.dialects.oracle'
+        'sqlalchemy.dialects.oracle',
         'pysqlite2',
-        'MySQLdb'
+        'MySQLdb',
+        'PyQt6'
     ],
     hookspath=[],
     runtime_hooks=[],
@@ -59,5 +60,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='YourAppName',
+    name='Viga',
 )

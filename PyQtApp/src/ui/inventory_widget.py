@@ -14,7 +14,7 @@ class InventoryWidget(QWidget):
         self.load_inventory()
 
     def setup_ui(self):
-        self.setWindowIcon(QIcon('C:/Users/Yaxh/Desktop/Viga/PyQtApp/src/assets/logo.png'))
+        self.setWindowIcon(QIcon('assets/logo.png'))
         self.setWindowTitle("Inventory Manager")
         self.setStyleSheet("background-color: #1E1E1E; color: #FFFFFF;")
 
@@ -24,7 +24,7 @@ class InventoryWidget(QWidget):
 
         # Centered logo with inversion effect
         self.logo_label = QLabel(self)
-        pixmap = QPixmap('C:/Users/Yaxh/Desktop/Viga/PyQtApp/src/assets/logo.png').scaled(100, 100, Qt.AspectRatioMode.KeepAspectRatio)
+        pixmap = QPixmap('assets/logo.png').scaled(100, 100, Qt.AspectRatioMode.KeepAspectRatio)
         image = pixmap.toImage()
         image.invertPixels()
         inverted_pixmap = QPixmap.fromImage(image)

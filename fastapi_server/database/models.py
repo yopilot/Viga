@@ -1,18 +1,7 @@
 from sqlalchemy import Column, Integer, String, Float, DateTime
 from datetime import datetime
-# database/base.py
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
+from .base import SQLALCHEMY_DATABASE_URL, Base, engine, SessionLocal
 
-SQLALCHEMY_DATABASE_URL = "sqlite:///./inventory.db"
-
-engine = create_engine(
-    SQLALCHEMY_DATABASE_URL, connect_args={"check_same_thread": False}
-)
-SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-
-Base = declarative_base()
 class InventoryItem(Base):
     __tablename__ = "inventory"
     id = Column(Integer, primary_key=True, index=True)
