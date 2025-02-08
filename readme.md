@@ -66,8 +66,3 @@ Viga is a comprehensive project that integrates a FastAPI server with a PyQt app
 - SQLite database skills.
 - Git for version control.
 
-## Bonus
-- Single-binary packaging (PyInstaller).
-- Advanced UI features.
-
-
