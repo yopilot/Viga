@@ -1,4 +1,3 @@
-![logo](https://github.com/user-attachments/assets/240ce7d8-dcc8-45ac-a352-6f7ff69f3a82)
 # Viga
 
 ## Overview
@@ -9,6 +8,38 @@ Viga is a comprehensive project that integrates a FastAPI server with a PyQt app
 - **PyQtApp**: Contains the PyQt application code.
 - **BlenderPlugin**: Contains the Blender plugin code.
 - **VigaExecutable**: Contains the executable for the PyQt application.
+
+
+# ScreenShot
+
+## plugin
+![Screenshot 2025-02-09 025200](https://github.com/user-attachments/assets/f77c1077-cbec-4ae4-ad85-61f186c99f8d)
+
+## Fast api run
+![Screenshot 2025-02-09 025215](https://github.com/user-attachments/assets/de2bd944-34f3-47ca-a028-06e0b6714879)
+## Data Storage at Server - SQLite
+
+### Inventory
+![Screenshot 2025-02-09 025231](https://github.com/user-attachments/assets/c901b8aa-ed2f-428a-96db-2384d42d0762)
+
+### Transform
+![Screenshot 2025-02-09 025238](https://github.com/user-attachments/assets/e4987ba4-74d1-47b6-a1a7-978d624fc2af)
+
+### File Path
+![Screenshot 2025-02-09 025256](https://github.com/user-attachments/assets/6230f5ee-e4e2-4806-a7b4-0b425c8d429e)
+
+---
+
+## Executable PYQt Application for Inventory
+
+### Application
+![Screenshot 2025-02-09 025355](https://github.com/user-attachments/assets/e6511e14-900a-4eef-8804-8f3c230d878e)
+
+### BUY
+![Screenshot 2025-02-09 025403](https://github.com/user-attachments/assets/b2160a83-d6ec-4e10-81dd-e5cd4bffe353)
+
+### RETURN
+![Screenshot 2025-02-09 025410](https://github.com/user-attachments/assets/93748ccd-03d6-45e6-9cc9-42acbb627aa0)
 
 ## Full Setup Instructions
 
