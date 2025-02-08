@@ -7,6 +7,21 @@ Viga is a comprehensive project that integrates a FastAPI server with a PyQt app
 - **fastapi_server**: Contains the FastAPI server code.
 - **PyQtApp**: Contains the PyQt application code.
 - **BlenderPlugin**: Contains the Blender plugin code.
+- **VigaExecutable**: Contains the executable for the PyQt application.
+
+## Setup Instructions
+
+### Blender Plugin
+1. Install the Blender plugin:
+   - Open Blender.
+   - Go to `Edit` > `Preferences` > `Add-ons`.
+   - Click `Install...` and select the `BlenderPlugin/transformPlugin.zip` file.
+   - Enable the installed plugin.
+
+### FastAPI Server
+1. Navigate to the `fastapi_server` directory:
+   ```sh
+   cd fastapi_server
 
 ## FastAPI Server
 The FastAPI server provides endpoints for managing inventory items and their transformations.
@@ -21,4 +36,74 @@ The FastAPI server provides endpoints for managing inventory items and their tra
 To run the FastAPI server, use the following command:
 ```sh
 python main.py
+```
+
+## Running the PyQt Application
+To run the PyQt application, execute the following file:
+```sh
+VigaExecutable/Viga/Vega.exe
+```
+
+## Full Setup Instructions
+
+### Prerequisites
+1. Install the Blender plugin:
+    - Open Blender.
+    - Go to `Edit` > `Preferences` > `Add-ons`.
+    - Click `Install...` and select the `BlenderPlugin/transformPlugin.zip` file.
+    - Enable the installed plugin.
+
+2. Install the required Python packages:
+    ```sh
+    pip install -r fastapi_server/requirements.txt
+    ```
+
+### Running the Components
+1. Navigate to the `fastapi_server` directory and run the FastAPI server:
+    ```sh
+    cd fastapi_server
+    python main.py
+    ```
+
+2. Run the PyQt application:
+    ```sh
+    VigaExecutable/Viga/Vega.exe
+    ```
+
+## Additional Information
+
+### FastAPI Server Endpoints
+- **/transform**: Takes all transforms (position, rotation, scale).
+- **/translation**: Takes only position.
+- **/rotation**: Takes only rotation.
+- **/scale**: Takes only scale.
+- **/file-path**: Returns the DCC file's path. `/file-path?projectpath=true` returns the project folder path.
+- **/add-item**: Adds an item to the database (name, quantity).
+- **/remove-item**: Removes an item from the database (by name).
+- **/update-quantity**: Updates an item's quantity (name, new quantity).
+
+### Database
+- Uses SQLite to store inventory items and quantities.
+- The server updates the database based on `/add-item`, `/remove-item`, and `/update-quantity` requests.
+
+### PyQt Application
+- Displays the inventory from the database.
+- Includes buttons to buy/return items, updating both the database and the DCC plugin's display.
+- Ensures responsiveness while waiting for server responses.
+
+### Bonus Features
+- Single-binary packaging using PyInstaller.
+- Advanced UI features.
+
+## Requirements
+- Python proficiency.
+- Knowledge of DCC Python API (Maya or Blender).
+- REST API experience (Flask or FastAPI).
+- SQLite database skills.
+- Git for version control.
+
+## Bonus
+- Single-binary packaging (PyInstaller).
+- Advanced UI features.
+
 
