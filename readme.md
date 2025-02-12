@@ -1,7 +1,7 @@
 # Viga Assignment
 
 ## Overview
-Viga is a comprehensive project that integrates a FastAPI server with a PyQt application and a Blender plugin. The project aims to manage inventory items and their transformations, providing a seamless interface between the server, desktop application, and Blender.
+This is a comprehensive project that integrates a FastAPI server with a PyQt application and a Blender plugin. The project aims to manage inventory items and their transformations, providing a seamless interface between the server, desktop application, and Blender.
 
 ## Project Structure
 - **fastapi_server**: Contains the FastAPI server code.
